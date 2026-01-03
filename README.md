@@ -35,7 +35,6 @@ ________________________________________
 *	PyTorch (version: 2.7.0)
 *	Scikit-learn (version: 1.7.1)
 *	NumPy (version: 2.3.5)
-*	Biopython
 *	Propy (protein sequence feature extraction) (pip install propy3)
 ________________________________________
 # Input Format
