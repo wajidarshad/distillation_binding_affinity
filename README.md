@@ -20,7 +20,16 @@ This repository supports:
 Model training and hyperparameter optimization are not included, as these are fully described in the associated manuscript and supplementary material.
 ________________________________________
 # Directory Structure
-.
+- **`model/`** - Contains Pre-trained student model (PyTorch).
+  - `student_with_diss_weights.pth` - trained model.
+  - `utils/` - Utility functions.
+  - `index.js` - The main entry point.
+- **`docs/`** - Project documentation and guides.
+- **`public/`** - Static assets and the main HTML file.
+- `LICENSE` - The project license.
+- `README.md` - The file you are reading now.
+
+
 ├── model/
 │   └── distilled_student.pt     # Pre-trained student model (PyTorch)
 │
