@@ -30,5 +30,49 @@ ________________________________________
   - `predict.py ` - Model inference script.
 - `README.md` - The file you are reading now.
 
+# Software Requirements
+*	Python (version: 3.13.11)
+*	PyTorch (version: 2.7.0)
+*	Scikit-learn (version: 1.7.1)
+*	NumPy (version: 2.3.5)
+*	Biopython
+*	Propy (protein sequence feature extraction) (pip install propy3)
+________________________________________
+# Input Format
+Protein Sequences
+*	FASTA format
+*	Ligand and receptor chains provided separately
+  
+Feature Extraction (Sequence-Based)
+*	Sequence features are extracted through Propy by using method define in feature_extraction.py. 
+*	All feature standardization is performed using training-set statistics only.
+________________________________________
+Running Inference
+•	To predict binding affinities for new complexes, use predict.py
+________________________________________
+Reproducibility Statement
+•	The released model corresponds exactly to the configuration reported in the manuscript.
+•	Feature normalization parameters are fixed and embedded.
+•	No external data is accessed during inference.
+________________________________________
+Intended Use and Limitations
+This model is intended for:
+•	Benchmarking
+•	External validation
+•	Large-scale sequence-based affinity screening
+Limitations:
+•	Predictive performance is constrained by the size and diversity of available training data
+•	Performance does not yet reach that of structure-based predictors, as discussed in the manuscript
+________________________________________
+Citation
+If you use this model or code, please cite:
+Wajid Arshad Abbasi, Investigating knowledge distillation through neural networks for protein binding affinity prediction. preprint, 2026.
+________________________________________
+License
+MIT License
+________________________________________
+Contact
+For questions related to model usage or evaluation, please email at wajidarshad@uajk.edu.pk.
+
 
 
