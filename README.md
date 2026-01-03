@@ -45,7 +45,7 @@ Protein Sequences
   
 Feature Extraction (Sequence-Based)
 *	Sequence features are extracted through Propy by using method define in feature_extraction.py. 
-*	All feature standardization is performed using training-set statistics only.
+*	All feature standardization is performed using training-set statistics only. The fitted normalization parameters were saved and reused for external validation to prevent information leakage.
 ________________________________________
 # Running Inference
 *	To predict binding affinities for new complexes, use predict.py
