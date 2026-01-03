@@ -8,6 +8,7 @@ This implementation is intended for external evaluation and practical use, consi
 The released model corresponds to the best-performing distillation configuration identified under Leave-One-Complex-Out (LOCO) cross-validation, using:
 *	Teacher network: structure-based descriptors (Moal features)
 *	Student network: sequence-based descriptors (Propy features)
+
 At inference time, only sequence-based features are required. No structural information is needed for the test complexes.
 
 
