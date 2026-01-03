@@ -22,24 +22,13 @@ ________________________________________
 # Directory Structure
 - **`model/`** - Contains Pre-trained student model (PyTorch).
   - `student_with_diss_weights.pth` - trained model.
-  - `utils/` - Utility functions.
-  - `index.js` - The main entry point.
-- **`docs/`** - Project documentation and guides.
-- **`public/`** - Static assets and the main HTML file.
-- `LICENSE` - The project license.
+  - `scaler_labels.pkl` - StandarScaler for labels.
+  - `caler_propy.pkl` - StandarScaler for features.
+- **`example/`** - Example FASTA files (ligand & receptor).
+- **`src/`** - python files.
+  - `feature_extraction.py` - Propy feature extraction.
+  - `predict.py ` - Model inference script.
 - `README.md` - The file you are reading now.
 
 
-├── model/
-│   └── distilled_student.pt     # Pre-trained student model (PyTorch)
-│
-├── example/
-│   ├── sequences/               # Example FASTA files (ligand & receptor)
-│
-├── src/
-│   ├── feature_extraction.py    # Propy feature extraction
-│   ├── predict.py               # Model inference script
-│
-├── requirements.txt
-└── README.md
 
