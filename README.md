@@ -11,4 +11,26 @@ The released model corresponds to the best-performing distillation configuration
 
 At inference time, only sequence-based features are required. No structural information is needed for the test complexes.
 
+________________________________________
+# Repository Scope
+This repository supports:
+*	Testing the pre-trained distillation-based student model
+*	Predicting binding affinities for new protein–protein complexes
+  
+Model training and hyperparameter optimization are not included, as these are fully described in the associated manuscript and supplementary material.
+________________________________________
+# Directory Structure
+.
+├── model/
+│   └── distilled_student.pt     # Pre-trained student model (PyTorch)
+│
+├── example/
+│   ├── sequences/               # Example FASTA files (ligand & receptor)
+│
+├── src/
+│   ├── feature_extraction.py    # Propy feature extraction
+│   ├── predict.py               # Model inference script
+│
+├── requirements.txt
+└── README.md
 
