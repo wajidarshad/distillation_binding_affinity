@@ -67,7 +67,7 @@ Limitations:
 ________________________________________
 # Citation
 If you use this model or code, please cite:
-Wajid Arshad Abbasi, Investigating knowledge distillation through neural networks for protein binding affinity prediction. preprint, 2026.
+Wajid et al., Investigating knowledge distillation through neural networks for protein binding affinity prediction. preprint, 2026.(http://arxiv.org/abs/2601.03704)
 ________________________________________
 # License
 MIT License
